@@ -1,0 +1,33 @@
+.header {
+  max-width: 1366px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.header__left {
+  /* background-color: aqua; */
+  float: left;
+  height: 96px;
+}
+
+.header__right {
+  /* background-color: red; */
+  float: right;
+  height: 96px;
+}
+
+.header__logo {
+  width: 96px;
+  height: 96px;
+  visibility: hidden;
+}
+
+.header__navlinks {
+  padding: 0;
+}
+
+.header__navlinks li {
+  display: block;
+  float: left;
+  padding: 24px 36px;
+}
