@@ -1,0 +1,20 @@
+.footer {
+	margin-top: 200px;
+	padding: 32px;
+	background-color: black;
+	align-items: center;
+	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-section {
+	color: white;
+	text-align: center;
+	margin: 32px;
+}
+
+.footer-section a {
+	margin: 12px;
+	color: white;
+}

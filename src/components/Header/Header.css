@@ -1,33 +1,37 @@
 .header {
-  max-width: 1366px;
-  margin: 0 auto;
-  z-index: 2;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
 }
 
-.header__left {
-  /* background-color: aqua; */
-  float: left;
-  height: 96px;
+.header__wBG {
+  background: linear-gradient(90deg, #8EC5FC, #E0C3FC);
 }
 
 .header__right {
-  /* background-color: red; */
   float: right;
-  height: 96px;
-}
-
-.header__logo {
-  width: 96px;
-  height: 96px;
-  visibility: hidden;
+  margin: 0 32px;
 }
 
 .header__navlinks {
-  padding: 0;
+  margin: 0;
+}
+
+.header__navlinks a {
+  color: black;
 }
 
 .header__navlinks li {
-  display: block;
+  list-style-type: none;
+  padding: 12px 16px;
+  margin: 12px;
   float: left;
-  padding: 24px 36px;
+  border-radius: 8px;
+  transition: all .2s;
+}
+
+.header__navlinks li:hover {	
+  background-color: rgba(224, 214, 243, 0.4);
 }

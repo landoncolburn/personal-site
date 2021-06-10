@@ -1,19 +1,16 @@
-import { ReactComponent as Logo } from 'assets/images/logo.svg';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
-function Header() {
+function Header(props) {
   return (
-    <div className="header">
-      <div className="header__left">
-        <Logo className="header__logo"/>
-      </div>
+    <div className={props.background !== 'false' ? 'header header__wBG' : 'header'}>
       <div className="header__right">
         <ul className="header__navlinks">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/about/"><li>About</li></Link>
+          <Link to="/projects/"><li>Projects</li></Link>
+          <Link to="/blog/"><li>Blog</li></Link>
+          <Link to="/contact/"><li>Contact</li></Link>
         </ul>
       </div>
     </div>

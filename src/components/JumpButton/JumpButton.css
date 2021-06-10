@@ -3,6 +3,7 @@
 	bottom: 64px;
 	left: 50%;
 	transform: translateX(-50%);
+	transition: all 0.2s;
 	padding: 15px 40px;
 	font-size: 1.2rem;
 	background: aliceblue;
@@ -16,4 +17,8 @@
 @keyframes float {
 	from {bottom: 64px}
 	to {bottom: 72px}
+}
+
+.jump-button:hover {
+	transform: translateX(-50%) scale(1.1);
 }
