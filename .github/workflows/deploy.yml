@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Build production version
-        run: npm run build
+        run: CI=false npm run build
         
       - name: Rename build folder
         run: |
