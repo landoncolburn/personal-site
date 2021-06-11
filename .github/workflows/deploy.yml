@@ -36,4 +36,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           source: "./public_html/*"
-          target: "/var/www/landoncolburn.com/public_html/"
+          target: "/var/www/landoncolburn.com/"
