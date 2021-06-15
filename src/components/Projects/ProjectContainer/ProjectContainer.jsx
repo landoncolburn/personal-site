@@ -6,8 +6,8 @@ function ProjectContainer(props) {
 	const projects = props.projects
 	return (
 		<div className="post__container">
-			{projects.map(project=>(
-				<Project project={project} />
+			{projects.map((project, i)=>(
+				<Project key={i} project={project} />
 			))}
 		</div>
 	)

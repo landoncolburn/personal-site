@@ -5,6 +5,7 @@ function Post(props) {
 	const dateObj = new Date(date);
 	const primaryColor = `hsla(${color[0]}, ${color[1]}%, ${color[2]}%, ${color[3]})`;
 	const secondaryColor = `hsla(${(color[0]+20)%360}, ${color[1]}%, ${color[2]}%, ${color[3]})`;
+	console.log(author, content);
 	return(
 		<div className="post">
 			<div style={{background: `linear-gradient(45deg, ${primaryColor}, ${secondaryColor})`}} className="post__image"></div>

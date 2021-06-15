@@ -1,8 +1,28 @@
 .project__carousel {
 	margin: 12px 12px 0 12px;
+	position: relative;
 }
 
 .project__carousel__indicator {
 	font-size: 5em;
 	margin: 0;
+}
+
+.carousel__controller {
+	position: absolute;
+	top: 190px;
+	height: 50px;
+	width: 50px;
+	border: none;
+	border-radius: 100%;
+	background-color: hsla(0, 0%, 0%, 0.1);
+	color: white;
+	cursor: pointer;
+}
+
+.left {
+	left: 32px;
+}
+.right {
+	right: 32px;
 }
