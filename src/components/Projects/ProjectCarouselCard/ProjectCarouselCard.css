@@ -1,0 +1,11 @@
+.project__carousel__card {
+	background-color: #84ecc8;
+	border-radius: 18px;
+	height: 400px;
+}
+
+.project__featured__name {
+	font-size: 2em;
+	padding: 32px;
+	color: white;
+}

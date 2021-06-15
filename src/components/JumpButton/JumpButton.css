@@ -12,6 +12,7 @@
 	animation: alternate infinite;
 	animation-name: float;
 	animation-duration: 2s;
+	cursor: pointer;
 }
 
 @keyframes float {

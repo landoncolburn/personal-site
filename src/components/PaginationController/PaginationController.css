@@ -1,0 +1,20 @@
+.pagination__controller {
+	display: flex;
+	justify-content: center;
+}
+
+.dot {
+	margin: 18px 2px 12px 2px;
+	width: 10px;
+}
+
+.dot:hover {
+	cursor: pointer;
+}
+
+.active {
+	fill: #999999;
+}
+.inactive {
+	fill: #cccccc;
+}
