@@ -31,7 +31,8 @@ function ProjectCarousel() {
 	useEffect(() => {
 		const interval = setInterval(next, 4000);
 		return () => clearInterval(interval);
-	  });
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
 	return (
 		<div className='project__carousel'>

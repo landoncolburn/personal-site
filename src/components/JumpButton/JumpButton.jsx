@@ -2,7 +2,7 @@ import './JumpButton.css';
 
 function JumpButton(props) {
   return (
-    <button className="jump-button">
+    <button onClick={props.action} className="jump-button">
       {props.title}
     </button>
   );
