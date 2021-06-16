@@ -12,9 +12,16 @@
 	color: white;
 	text-align: center;
 	margin: 32px;
+	display: flex;
 }
 
 .footer-section a {
 	margin: 12px;
 	color: white;
+}
+
+@media screen and (max-width: 1200px){
+	.footer-section {
+		flex-direction: column;
+	}
 }

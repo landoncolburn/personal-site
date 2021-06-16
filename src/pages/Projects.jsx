@@ -11,7 +11,7 @@ function Home(){
 	return(
 		<div className="home">
 			<Header />
-			<Section>
+			<Section >
 				<h1>Projects</h1>
 				<h3 style={{fontWeight: 400, fontSize: '1em', color: '#999'}}>* Please note: this is temporary test data. They're not real projects.</h3>
 				<ProjectCarousel />

@@ -9,7 +9,7 @@ function Home(){
 	return(
 		<div className="home">
 			<Header />
-			<Section>
+			<Section >
 				<h1>Blog</h1>
 				<h3 style={{fontWeight: 400, fontSize: '1em', color: '#999'}}>* Please note: this is temporary test data. They're not real blog posts.</h3>
 				<PostContainer posts={posts}/>

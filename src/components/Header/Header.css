@@ -35,3 +35,43 @@
 .header__navlinks li:hover {	
   background-color: rgba(224, 214, 243, 0.4);
 }
+
+.menu .icon {
+  color: black;
+}
+
+.menu {
+  margin: 0;
+  background: none;
+  border: none;
+  visibility: hidden;
+  display: none;
+  float: right;
+  margin: 32px 0;
+}
+
+@media screen and (max-width: 1200px){
+  ul.header__navlinks {
+    display: none;
+  }
+  .menu {
+    visibility: visible;
+    display: block;
+    padding-right: 16px;
+  }
+  ul.visible {
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 16px 0;
+  }
+  .header__right {
+    width: 100%;
+    margin: 0;
+    float: right;
+  }
+  .header__navlinks li {
+    float: none;
+    margin: 16px 32px;
+  }
+}

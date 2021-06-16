@@ -12,3 +12,12 @@
   top: 35%;
   max-width: 400px;
 }
+
+@media screen and (max-width: 1200px){
+  .hero__inner-text {
+    text-align: center;
+    position: relative;
+    padding: 128px 32px;
+    margin: 0 auto;
+  }
+}

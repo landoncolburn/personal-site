@@ -1,6 +1,8 @@
 .project {
 	position: relative;
-	width: 200px;
+	flex: 1;
+	min-width: 200px;
+	flex-grow: 1;
 	height: 300px;
 	border-radius: 18px;
 	padding: 16px;
