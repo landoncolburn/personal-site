@@ -8,7 +8,7 @@ import { faBars} from '@fortawesome/free-solid-svg-icons'
 
 function Header(props) {
 
-  const [barsOpen, setBarsOpen] = useState(true);
+  const [barsOpen, setBarsOpen] = useState(false);
 
   return (
     <div className={`${props.background !== 'false' ? 'header header__wBG' : 'header'}`}>
