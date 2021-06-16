@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './index.css';
 
 // Polyfills
@@ -21,7 +21,7 @@ smoothscroll.polyfill();
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <ScrollToTop>
       <Switch>
         <Route path="/" exact component={Home} />
@@ -32,7 +32,7 @@ ReactDOM.render(
         <Route path="*" component={NotFound} />
       </Switch>
       </ScrollToTop>
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
