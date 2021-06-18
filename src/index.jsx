@@ -10,6 +10,7 @@ import Home from 'pages/Home';
 import About from 'pages/About';
 import Projects from 'pages/Projects';
 import Blog from 'pages/Blog';
+import BlogPost from 'pages/BlogPost';
 import Contact from 'pages/Contact';
 
 import NotFound from 'pages/errors/NotFound';
@@ -26,8 +27,9 @@ ReactDOM.render(
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/blog" component={Blog} />
+        <Route path="/projects" exact component={Projects} />
+        <Route path="/blog" exact component={Blog} />
+        <Route path="/blog/:slug" component={BlogPost} />
         <Route path="/contact" component={Contact} />
         <Route path="*" component={NotFound} />
       </Switch>

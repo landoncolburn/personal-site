@@ -1,4 +1,6 @@
 .post {
+	color: inherit;
+	text-decoration: inherit;
 	max-width: 300px;
 	cursor: pointer;
 	flex-grow: 1;

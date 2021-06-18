@@ -1,0 +1,13 @@
+.blog__post h3 {
+	font-weight: 400;
+	margin: 16px 0 32px 0;
+}
+
+.blog__post h1 {
+	margin-bottom: 0;
+}
+
+.blog__post .back__to__blogs__button {
+	text-decoration: none;
+	color: rgb(134, 174, 243);
+}
