@@ -1,77 +1,32 @@
 .contact__form {
-	width: 100%;
-	border-radius: 16px;
-	background-color: #9ec5f7;
+	margin: 50px auto;
 }
 
-.contact__safe_area {
-	display: flex;
-}
-.contact__safe_area__left {
-	width: 50%;
-	background-color: rgba(255, 255, 255, 0.2);
-	border-radius: 16px;
-	margin: 16px;
-	padding: 16px 24px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-}
-.contact__safe_area__right {
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 16px;
-	margin: 16px;
-}
-
-.contact__form h2 {
-	font-size: 1.5em;
-	font-weight: 500;
-	color: white;
-}
-
-.contact__form p {
-	color: white;
-}
-
-.contact__form ul {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	padding: 0;
-}
-
-.contact__form li {
-	color: white;
-}
-
-.contact__form form {
-	padding: 16px;
-}
-
-.contact__form input[type=text],[type=email],textarea {
-	width: 100%;
+.contact__form input,textarea{
 	padding: 8px;
-	border: none;
-	border-radius: 8px;
-	box-sizing: border-box;
-	margin: 8px 6px 24px 0;
 	font-size: 1em;
-	background-color: rgba(255, 255, 255, 0.5);
-	color: black;
-	resize: none;
+	display: block;
+	width: 100%;
+	border: solid 1px #cccccc;
+	background-color: #f5f5f5;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
-.contact__form label {
-	font-size: 1.1em;
-	color: white;
-	font-weight: 500;
+.contact_form label {
+	display: block;
 }
 
 .contact__form input[type=submit] {
-	padding: 12px 48px;
-	font-size: 1em;
-	background-color: rgba(255, 255, 255, 0.5);
-	border: none;
-	border-radius: 8px;
+	width: 100px;
+	margin: 0;
+}
+
+.toprow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sidebyside {
+	width: 48%;
 }

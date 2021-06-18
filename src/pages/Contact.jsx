@@ -10,6 +10,7 @@ function Home(){
 			<Header />
 			<Section>
 				<h1>Contact Me</h1>
+				<p>Looking for something specific? Feel free to drop me a line using the form below or any of my socials. I am always happy to hear from you!</p>
 				<ContactForm />
 			</Section>
 			<Footer />
