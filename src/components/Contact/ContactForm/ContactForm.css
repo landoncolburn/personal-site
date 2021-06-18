@@ -11,6 +11,7 @@
 	background-color: #f5f5f5;
 	margin-bottom: 20px;
 	margin-top: 10px;
+	box-sizing: border-box;
 }
 
 .contact_form label {
@@ -20,6 +21,8 @@
 .contact__form input[type=submit] {
 	width: 100px;
 	margin: 0;
+	font-weight: 400;
+	color: inherit;
 }
 
 .toprow {
@@ -29,4 +32,13 @@
 
 .sidebyside {
 	width: 48%;
+}
+
+@media screen and (max-width: 1000px) {
+	.sidebyside {
+		width: 100%;
+	}
+	.toprow {
+		display: inherit;
+	}
 }
